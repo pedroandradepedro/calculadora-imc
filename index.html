@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fontes -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Projeto - Calculadora IMC</title>
+
+</head>
+
+<body>
+
+    <form class="form" onsubmit="return calcular(event)">
+
+        <div class="campo">
+            <label>Digite o seu peso:</label>
+            <input type="text" name="peso" id="peso" placeholder="Ex: 85">
+        </div>
+
+        <div class="campo">
+            <label>Digite sua altura:</label>
+            <input type="text" name="altura" id="altura" placeholder="Ex: 1.76">
+        </div>
+
+        <button class="botao" type="submit">Calcular</button>
+
+    </form>
+
+    <div id="resultado"></div>
+
+
+    <!-- Javascript -->
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

@@ -22,23 +22,29 @@
 
 <body>
 
-    <form class="form" onsubmit="return calcular(event)">
+    <div class="content">
 
-        <div class="campo">
-            <label>Digite o seu peso:</label>
-            <input type="text" name="peso" id="peso" placeholder="Ex: 85">
-        </div>
+        <h1 class="title">Calculadora IMC</h1>
 
-        <div class="campo">
-            <label>Digite sua altura:</label>
-            <input type="text" name="altura" id="altura" placeholder="Ex: 1.76">
-        </div>
+        <form class="form" onsubmit="return calcular(event)">
 
-        <button class="botao" type="submit">Calcular</button>
+            <div class="campo">
+                <label>Digite o seu peso:</label>
+                <input type="text" name="peso" id="peso" placeholder="Ex: 85">
+            </div>
 
-    </form>
+            <div class="campo">
+                <label>Digite sua altura:</label>
+                <input type="text" name="altura" id="altura" placeholder="Ex: 1.76">
+            </div>
 
-    <div id="resultado"></div>
+            <button class="botao" type="submit">Calcular</button>
+
+        </form>
+
+        <div id="resultado"></div>
+
+    </div>
 
 
     <!-- Javascript -->

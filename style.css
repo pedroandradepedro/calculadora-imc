@@ -27,6 +27,16 @@ body {
   height: 100vh;
 }
 
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  height: 100vh;
+  background: #242424;
+}
+
 .title {
   width: 100%;
   max-width: 560px;
@@ -51,6 +61,11 @@ body {
   gap: 10px;
 }
 
+#resultado {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
 label {
   font-size: 1.25rem;
   color: #242424;
@@ -59,7 +74,7 @@ label {
 input {
   border: 1px solid #9c9c9c;
   border-radius: 4px;
-  padding: 8px 14px;
+  padding: 16px 14px;
   min-width: 100%;
   background: #eeeeee;
 }
@@ -73,10 +88,15 @@ input[type="text"]::placeholder {
   color: #ffffff;
   font-size: 16px;
   font-weight: 700;
+  text-transform: uppercase;
   border: none;
   border-radius: 4px;
   height: 49px;
   cursor: pointer;
   margin-bottom: 25px;
   transition: background-color 0.2s linear;
+}
+
+.botao:hover {
+  background: #0860c5;
 }

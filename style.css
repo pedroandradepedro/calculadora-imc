@@ -98,5 +98,17 @@ input[type="text"]::placeholder {
 }
 
 .botao:hover {
-  background: #0860c5;
+  background: #474747;
+}
+
+@media (max-width: 800px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+  .left {
+    height: 50vh;
+  }
+  .right {
+    height: 50vh;
+  }
 }

@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <img alt="Página da calculadora de IMC" src="./Mockup-Notebook.jpg" width="100%">
+  <img alt="Página da calculadora de IMC" src="./Readme/Mockup-Notebook.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
